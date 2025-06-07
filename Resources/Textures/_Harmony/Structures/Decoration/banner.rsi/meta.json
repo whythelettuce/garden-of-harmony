@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprite taken from https://github.com/space-wizards/space-station-14/pull/7253/commits/ae8eb3582677566bb2ffbc66695461ae617cd722 and modified by whythelettuce (Github).",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "banner_cargo"
+      }
+    ]
+  }
+  
