@@ -769,6 +769,7 @@
   - type: Tag
     tags:
     - MonkeyWearable
+    - WhitelistChameleon
 
 #Wizard Hardsuit
 - type: entity
