@@ -12,6 +12,10 @@
 - type: Tag
   id: DockPod
 
+# Tag used for hacked pAI uplink
+- type: Tag
+  id: HackedPAI
+
 # Tag used for pride mantles.
 - type: Tag
   id: WhitelistChameleonPrideMantle
