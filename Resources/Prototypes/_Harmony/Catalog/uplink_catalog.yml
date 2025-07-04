@@ -42,6 +42,21 @@
   categories:
   - UplinkWeaponry
 
+
+- type: listing
+  id: UplinkRifleBandit
+  name: uplink-rifle-bandit-name
+  description: uplink-rifle-bandit-desc
+  productEntity: ClothingBackpackDuffelSyndicateFilledDMR
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Rifles/bandit.rsi, state: icon }
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 15
+  cost:
+    Telecrystal: 18
+  categories:
+  - UplinkWeaponry
+
 # Explosives
 
 - type: listing
@@ -140,6 +155,17 @@
   description: uplink-shotgun-drum-slug-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
   productEntity: MagazineShotgunSlug
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkRifleDMRMagazine
+  name: uplink-rifle-magazine-bandit-name
+  description: uplink-rifle-magazine-bandit-desc
+  icon: { sprite: /Textures/_Harmony/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/dmr_mag.rsi, state: base }
+  productEntity: MagazineLightRifleCaseless
   cost:
     Telecrystal: 2
   categories:
