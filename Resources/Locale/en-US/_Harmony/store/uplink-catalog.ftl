@@ -43,6 +43,9 @@ uplink-syndicate-id-desc = A sleek black-and-red ID card with embossed Syndicate
 
 # Allies
 
+uplink-reinforcement-radio-cyborg-support-name = Syndicate Support Cyborg Teleporter
+uplink-reinforcement-radio-cyborg-support-desc = A lean, mean supporting machine with access to a Pinpointer, Echis, Cryptographic Sequencer, Energy Dagger and advanced medical treatment module.
+
 # Implants
 
 
