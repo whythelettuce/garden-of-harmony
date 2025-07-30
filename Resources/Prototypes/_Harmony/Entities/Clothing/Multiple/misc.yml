@@ -5,6 +5,6 @@
   description: Pretty purple headphones with plastic cat ears, perfect for listening to nightcore.
   components:
   - type: Sprite
-    sprite: _Harmony/Clothing/Neck/Misc/headphones_purple_cat.rsi
+    sprite: _Harmony/Clothing/Multiple/headphones_purple_cat.rsi
   - type: Clothing
-    sprite: _Harmony/Clothing/Neck/Misc/headphones_purple_cat.rsi
+    sprite: _Harmony/Clothing/Multiple/headphones_purple_cat.rsi
