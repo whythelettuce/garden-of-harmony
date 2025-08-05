@@ -34,10 +34,6 @@
   id: BloodBrotherEscapeShuttleObjective
 
 - type: entity
-  parent: [BaseBloodBrotherObjective, DieObjective]
-  id: BloodBrotherDieObjective
-
-- type: entity
   parent: [BaseBloodBrotherObjective, TraitorSurviveObjective]
   id: BloodBrotherSurviveObjective
 
