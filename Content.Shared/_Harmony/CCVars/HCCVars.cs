@@ -13,4 +13,10 @@ public sealed class HCCVars
     /// </summary>
     public static readonly CVarDef<bool> DisableSuicide =
         CVarDef.Create("ic.disable_suicide", false, CVar.SERVER);
+
+    /// <summary>
+    /// Allows server hosters to turn the queue on and off
+    /// </summary>
+    public static readonly CVarDef<bool> EnableQueue =
+        CVarDef.Create("queue.enable", false, CVar.SERVER);
 }
