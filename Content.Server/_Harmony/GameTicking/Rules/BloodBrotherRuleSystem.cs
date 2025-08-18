@@ -127,7 +127,10 @@ public sealed class BloodBrotherRuleSystem : GameRuleSystem<BloodBrotherRuleComp
 
         originalComponent.Brother = args.Target;
         if (_roleSystem.MindHasRole<BloodBrotherRoleComponent>(mindId, out var role))
+        {
             role.Value.Comp2.Brother = args.Target;
+            Dirty(role.Value);
+        }
 
         if (!_roleSystem.MindHasRole(targetMindId, out Entity<MindRoleComponent, BloodBrotherRoleComponent>? targetRole))
         {
@@ -139,6 +142,7 @@ public sealed class BloodBrotherRuleSystem : GameRuleSystem<BloodBrotherRuleComp
 
         convertedComp.Brother = entity;
         targetRole!.Value.Comp2.Brother = entity;
+        Dirty(targetRole.Value);
 
         if (!_objectivesSystem.TryCreateObjective((targetMindId, targetMind),
                 entity.Comp.ConvertedBrotherObjective,
