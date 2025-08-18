@@ -52,6 +52,12 @@
   - ClothingNeckLanyard
   - HarmonicaInstrument
   # End harmony change - Server pins & neck slot items.
+  - OffsetCane
+  - OffsetCaneWood
+  - OffsetCaneClown
+  - OffsetCaneMime
+  - OffsetCaneNT
+  - Cane
   - TowelColorBlack
   - TowelColorDarkBlue
   - TowelColorDarkGreen
@@ -1167,7 +1173,7 @@
   - DetectiveBlueCoatHarmony # Harmony
   - DetectiveBomberCoatHarmony # Harmony
   - DetectiveDiscoCoatHarmony # Harmony
- 
+
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
   name: loadout-group-security-cadet-jumpsuit
