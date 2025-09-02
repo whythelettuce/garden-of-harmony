@@ -47,5 +47,7 @@ public sealed partial class VoicelinesTab : Control
         // Control.AddOptionCheckBox(RMCCVars.RMCPlayEmotesSkrell, RMCEmotesSkrell);
         Control.AddOptionCheckBox(RMCCVars.RMCPlayEmotesVox, RMCEmotesVox);
         // Harmony Change end
+
+        Control.Initialize(); // Harmony
     }
 }
