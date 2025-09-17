@@ -400,7 +400,7 @@
   description: The jumpsuit for the poor sop with a mop.
   components:
   - type: Sprite
-    sprite: _HarmonyClothing/Uniforms/Jumpsuit/janitor.rsi # Harmony
+    sprite: _Harmony/Clothing/Uniforms/Jumpsuit/janitor.rsi # Harmony
 
 - type: entity
   parent: ClothingUniformBase
