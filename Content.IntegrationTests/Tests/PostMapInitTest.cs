@@ -62,6 +62,28 @@ namespace Content.IntegrationTests.Tests
             {"/Maps/Shuttles/ShuttleEvent/syndie_evacpod.yml", ["RubberStampSyndicate"]},
             {"/Maps/Shuttles/ShuttleEvent/cruiser.yml", ["ShuttleGunPerforator"]},
             {"/Maps/Shuttles/ShuttleEvent/instigator.yml", ["ShuttleGunFriendship"]},
+            {"/Maps/_Harmony/eclipse.yml", ["ShuttleGunKinetic", "ShuttleGunSvalinnMachineGun"]}, // Harmony
+            // Harmony start
+            {
+                "/Maps/_Harmony/Nonstations/listening-outpost.yml",
+                [
+                    "RubberStampCaptain",
+                    "RubberStampCE",
+                    "RubberStampChaplain",
+                    "RubberStampClown", "RubberStampCMO",
+                    "RubberStampDetective",
+                    "RubberStampHop",
+                    "RubberStampHos",
+                    "RubberStampMime",
+                    "RubberStampPsychologist",
+                    "RubberStampQm",
+                    "RubberStampRd",
+                    "RubberStampSyndicate",
+                    "RubberStampWarden",
+                ]
+            },
+            // Harmony end
+            {"/Maps/_Harmony/Shuttles/ShuttleEvent/ERPSmall.yml", ["GoldenBikeHorn"]}, // Harmony
         };
 
         /// <summary>
@@ -74,6 +96,7 @@ namespace Content.IntegrationTests.Tests
         private static readonly string[] DoNotMapWhitelist =
         {
             "/Maps/centcomm.yml",
+            "/Maps/_Harmony/centcomm.yml", // Harmony
             "/Maps/Shuttles/AdminSpawn/**" // admin gaming
         };
 
