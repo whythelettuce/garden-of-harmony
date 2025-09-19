@@ -23,6 +23,8 @@
     CaptainJetpackStealObjective: 0.5
     HandTeleporterStealObjective: 0.5
     EnergyShotgunStealObjective: 0.5
+    EnergyMagnumStealObjective: 0.5 # Harmony Objective
+    AccessConfiguratorStealObjective: 1 # Harmony Objective
 
 - type: weightedRandom
   id: TraitorObjectiveGroupKill
@@ -89,6 +91,7 @@
     BibleStealObjective: 1
     ClothingNeckGoldmedalStealObjective: 1              #other
     ClothingNeckClownmedalStealObjective: 0.5
+    ThiefAccessConfiguratorStealObjective: 1 # Harmony Objective
 
 - type: weightedRandom
   id: ThiefObjectiveGroupStructure
