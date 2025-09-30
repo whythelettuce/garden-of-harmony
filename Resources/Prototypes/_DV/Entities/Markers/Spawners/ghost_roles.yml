@@ -11,3 +11,5 @@
     name: ghost-role-information-listeningop-name
     description: ghost-role-information-listeningop-description
     rules: ghost-role-information-listeningop-rules
+    mindRoles:
+    - MindRolePostOperator
