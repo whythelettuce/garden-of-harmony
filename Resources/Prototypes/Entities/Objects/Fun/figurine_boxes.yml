@@ -133,6 +133,10 @@
       - id: ToyFigurineHamlet
         prob: 0.20
         orGroup: SpacemenFig
+      # Harmony Change - adds CC Inspector
+      - id: ToyFigurineInspector
+        prob: 0.30
+        orGroup: SpacemenFig
 
 - type: entity
   parent: BaseItem
