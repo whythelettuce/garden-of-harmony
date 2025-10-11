@@ -38,4 +38,6 @@
     pocket2: Flash
   storage:
     back:
+    - RubberStampApproved
+    - RubberStampDenied
     - OfficeCarePackage
