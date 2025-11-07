@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.2.0
   forkId: harmony
   forkVersion: dfb392438e31dff3c1b85e5b50ded46f55a3aa25
-  time: 11/07/2025 05:31:16
-  entityCount: 16152
+  time: 11/07/2025 06:51:44
+  entityCount: 16153
 maps:
 - 1
 grids:
@@ -89920,6 +89920,13 @@ entities:
     components:
     - type: Transform
       pos: 31.5,10.5
+      parent: 2
+- proto: SpawnMobSlothPaperwork
+  entities:
+  - uid: 16153
+    components:
+    - type: Transform
+      pos: 25.5,-12.5
       parent: 2
 - proto: SpawnMobSmile
   entities:
