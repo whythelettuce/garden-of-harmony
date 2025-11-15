@@ -218,9 +218,9 @@
       - !type:HealthChange
         # start harmony change
         conditions:
-        - !type:OrganType
-          type: Avali
-          shouldHave: false
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]
+          inverted: true
         # end harmony change
         damage:
           types:
@@ -230,9 +230,8 @@
       effects:
       - !type:ModifyBloodLevel
         conditions:
-        - !type:OrganType
-          type: Avali
-          shouldHave: true
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]
         amount: 6
         # end harmony change
     Gas:

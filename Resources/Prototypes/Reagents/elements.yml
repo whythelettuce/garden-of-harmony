@@ -161,9 +161,8 @@
       # start harmony change
       - !type:HealthChange
         conditions:
-        - !type:OrganType
-          type: Avali
-          shouldHave: true
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]
         damage:
           types:
             Poison: 0.1
