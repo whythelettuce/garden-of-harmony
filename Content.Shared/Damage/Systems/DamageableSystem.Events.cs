@@ -216,7 +216,7 @@ public record struct BeforeDamageChangedEvent(DamageSpecifier Damage, EntityUid?
 ///
 ///     For example, armor.
 /// </summary>
-public sealed class DamageModifyEvent(DamageSpecifier damage, EntityUid? origin = null)
+public sealed class DamageModifyEvent(DamageSpecifier damage, EntityUid? origin = null, float armorPenetration = 0f) // Goob: armor penetration
     : EntityEventArgs, IInventoryRelayEvent
 {
     // Whenever locational damage is a thing, this should just check only that bit of armour.
@@ -224,6 +224,7 @@ public sealed class DamageModifyEvent(DamageSpecifier damage, EntityUid? origin 
 
     public readonly DamageSpecifier OriginalDamage = damage;
     public DamageSpecifier Damage = damage;
+    public float ArmorPenetration = armorPenetration; // Goob
 }
 
 public sealed class DamageChangedEvent : EntityEventArgs

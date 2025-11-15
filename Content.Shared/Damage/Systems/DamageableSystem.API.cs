@@ -41,12 +41,13 @@ public sealed partial class DamageableSystem
         bool ignoreResistances = false,
         bool interruptsDoAfters = true,
         EntityUid? origin = null,
-        bool ignoreGlobalModifiers = false
+        bool ignoreGlobalModifiers = false,
+        float armorPenetration = 0f // Goob
     )
     {
         //! Empty just checks if the DamageSpecifier is _literally_ empty, as in, is internal dictionary of damage types is empty.
         // If you deal 0.0 of some damage type, Empty will be false!
-        return !TryChangeDamage(ent, damage, out _, ignoreResistances, interruptsDoAfters, origin, ignoreGlobalModifiers);
+        return !TryChangeDamage(ent, damage, out _, ignoreResistances, interruptsDoAfters, origin, ignoreGlobalModifiers, armorPenetration); // Goob: armor penetration
     }
 
     /// <summary>
@@ -67,12 +68,13 @@ public sealed partial class DamageableSystem
         bool ignoreResistances = false,
         bool interruptsDoAfters = true,
         EntityUid? origin = null,
-        bool ignoreGlobalModifiers = false
+        bool ignoreGlobalModifiers = false,
+        float armorPenetration = 0f // Goob
     )
     {
         //! Empty just checks if the DamageSpecifier is _literally_ empty, as in, is internal dictionary of damage types is empty.
         // If you deal 0.0 of some damage type, Empty will be false!
-        newDamage = ChangeDamage(ent, damage, ignoreResistances, interruptsDoAfters, origin, ignoreGlobalModifiers);
+        newDamage = ChangeDamage(ent, damage, ignoreResistances, interruptsDoAfters, origin, ignoreGlobalModifiers, armorPenetration); // Goob: armor penetration
         return !damage.Empty;
     }
 
@@ -93,7 +95,8 @@ public sealed partial class DamageableSystem
         bool ignoreResistances = false,
         bool interruptsDoAfters = true,
         EntityUid? origin = null,
-        bool ignoreGlobalModifiers = false
+        bool ignoreGlobalModifiers = false,
+        float armorPenetration = 0f // Goob
     )
     {
         var damageDone = new DamageSpecifier();
@@ -117,7 +120,8 @@ public sealed partial class DamageableSystem
                 ent.Comp.DamageModifierSetId != null &&
                 _prototypeManager.Resolve(ent.Comp.DamageModifierSetId, out var modifierSet)
             )
-                damage = DamageSpecifier.ApplyModifierSet(damage, modifierSet);
+                damage = DamageSpecifier.ApplyModifierSet(damage,
+                    DamageSpecifier.PenetrateArmor(modifierSet, armorPenetration)); // Goob
 
             // TODO DAMAGE
             // byref struct event.

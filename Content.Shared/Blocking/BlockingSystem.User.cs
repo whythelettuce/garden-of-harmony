@@ -64,7 +64,7 @@ public sealed partial class BlockingSystem
         }
 
         args.Damage = DamageSpecifier.ApplyModifierSet(args.Damage,
-            armorPenetration: args.ArmorPenetration); // Goob edit
+            DamageSpecifier.PenetrateArmor(modify ,args.ArmorPenetration)); // Goob edit
 
         if (blocking.IsBlocking && !args.Damage.Equals(args.OriginalDamage))
         {
