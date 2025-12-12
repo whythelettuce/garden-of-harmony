@@ -30,3 +30,6 @@
 - type: Tag
   id: CartridgeLightRifleCaseless
 
+# Tag used for peanuts (pre-emptive prep for allergy system)
+- type: Tag
+  id: Peanut

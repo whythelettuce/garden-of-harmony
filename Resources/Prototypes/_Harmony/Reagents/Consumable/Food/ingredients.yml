@@ -1,0 +1,39 @@
+- type: reagent
+  id: PeanutButter
+  name: reagent-name-peanut-butter
+  group: Foods
+  desc: reagent-desc-peanut-butter
+  physicalDesc: reagent-physical-desc-sticky
+  flavor: peanutbutter
+  color: "#df883c"
+  recognizable: true
+  metabolisms:
+    Food:
+      effects:
+      - !type:AdjustReagent
+        reagent: Protein
+        amount: 0.2
+      - !type:SatiateThirst
+        factor: -0.2 # peanut butter
+      - !type:AdjustReagent
+        reagent: Nutriment
+        amount: 0.3
+
+- type: reagent
+  id: JellyGrape
+  name: reagent-name-jelly-grape
+  group: Foods
+  desc: reagent-desc-jelly-grape
+  physicalDesc: reagent-physical-desc-sweet
+  flavor: jellygrape
+  color: "#4e116c"
+  recognizable: true
+  metabolisms:
+    Food:
+      effects:
+      - !type:AdjustReagent
+        reagent: Vitamin
+        amount: 0.4
+      - !type:AdjustReagent
+        reagent: Nutriment
+        amount: 0.1

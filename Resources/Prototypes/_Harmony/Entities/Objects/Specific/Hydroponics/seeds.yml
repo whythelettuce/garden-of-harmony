@@ -1,0 +1,9 @@
+- type: entity
+  parent: SeedBase
+  name: packet of peanut seeds
+  id: PeanutSeeds
+  components:
+    - type: Seed
+      seedId: peanut
+    - type: Sprite
+      sprite: _Harmony/Objects/Specific/Hydroponics/peanut.rsi
