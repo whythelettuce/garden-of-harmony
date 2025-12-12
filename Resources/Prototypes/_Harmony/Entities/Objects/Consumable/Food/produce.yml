@@ -1,7 +1,8 @@
 - type: entity
-  name: peanut
   parent: FoodProduceBase
   id: FoodPeanut
+  name: peanut
+  suffix: Harmony
   description: An earthy ground nut, usually processed for peanut butter.
   components:
   - type: FlavorProfile

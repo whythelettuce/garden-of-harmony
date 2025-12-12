@@ -2,6 +2,7 @@
   parent: FoodBakedBase
   id: FoodBakedPeanutButterJellySandwich
   name: peanut butter jelly sandwich
+  suffix: Harmony
   description: It's peanut butter jelly time.
   components:
   - type: Item
