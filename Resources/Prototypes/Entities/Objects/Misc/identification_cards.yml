@@ -788,6 +788,10 @@
     - sprite: *icon-rsi
       offset: *icon-offset
       state: Boxer
+  # Harmony start
+  - type: PresetIdCard
+    job: Boxer
+  # Harmony end
 
 - type: entity
   parent: IDCardStandard
@@ -804,6 +808,10 @@
     - sprite: *icon-rsi
       offset: *icon-offset
       state: Zookeeper
+  # Harmony start
+  - type: PresetIdCard
+    job: Zookeeper
+  # Harmony end
 
 #Supply
 
