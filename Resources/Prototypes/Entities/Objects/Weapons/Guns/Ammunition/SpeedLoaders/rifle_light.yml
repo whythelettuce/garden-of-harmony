@@ -32,4 +32,7 @@
   - type: EmitSoundOnLand
     sound:
       path: /Audio/_Harmony/Items/rsc_speedloader_impact.ogg
+  - type: Tag
+    tags:
+    - SpeedLoaderRifle
 # End Harmony change
