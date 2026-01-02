@@ -37,3 +37,6 @@
 # Used for Salv comms & Telecom servers
 - type: Tag
   id: EncryptionSalvage
+
+- type: Tag
+  id: SpeedLoaderRifle
