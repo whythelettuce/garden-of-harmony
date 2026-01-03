@@ -121,6 +121,7 @@ namespace Content.IntegrationTests.Tests
             "Jellyfish", // Harmony, Developed by whythelettuce
             "Scylla", // Harmony, Developed by tanuko, luckyshotpictures
 			"Elkridge", // Harmony, Developed by deerstop, maintained by luckyshotpictures
+			"Wapiti", // Harmony, Developed by deerstop, maintained by luckyshotpictures
             "Dev",
             "TestTeg",
             "Fland",
