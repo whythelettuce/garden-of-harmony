@@ -14,6 +14,15 @@
         layer:
         - Opaque
         - BulletImpassable
+      ignition:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        hard: false
+        mask:
+        - ItemMask
+        layer:
+        - SlipLayer
   - type: Sprite
     noRot: true
     sprite: Structures/Decoration/bonfire.rsi
@@ -45,25 +54,9 @@
     temperature: 700
     ignited: true
   # Harmony start. Bonfire improvements below
-  - type: TriggerOnCollide
-    fixtureID: ignition
-  - type: Fixtures
-    fixtures:
-      ignition:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.4,-0.4,0.4,0.4"
-        hard: false
-        mask:
-        - ItemMask
-        layer:
-        - SlipLayer
   - type: IgniteOnCollide
     fireStacks: 2
     count: -1
-  - type: Construction
-    graph: BonfireGraph
-    node: bonfirenode
   # Harmony end
 
 - type: entity
