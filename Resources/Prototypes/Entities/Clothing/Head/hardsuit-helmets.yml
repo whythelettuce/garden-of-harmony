@@ -309,7 +309,7 @@
         shader: unshaded
       # Harmony start
       # head-reptilian:
-      # - state: equipped-head-reptilian
+      # - state: equipped-head-light-reptilian
       #   shader: unshaded
       # head-dog:
       # - state: equipped-head-light-dog
