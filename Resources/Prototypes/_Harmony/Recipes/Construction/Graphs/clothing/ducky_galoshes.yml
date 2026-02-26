@@ -24,10 +24,5 @@
                 sprite: _Harmony/Clothing/Shoes/Specific/galoshes.rsi
                 state: icon
               doAfter: 1
-            - tag: DrinkSpaceGlue
-              name: construction-graph-tag-glue
-              icon:
-                sprite: Objects/Fun/glue.rsi
-                state: icon
     - node: shoes
       entity: ClothingShoesDuckyGaloshes
