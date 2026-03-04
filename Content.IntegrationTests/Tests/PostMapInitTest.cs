@@ -140,6 +140,7 @@ namespace Content.IntegrationTests.Tests
             "ElkridgeImp",
             "GateImp",
             "Hummingbird",
+            "Jellyfish",
             "Lilboat",
             "MarathonImp",
             "OasisImp",
