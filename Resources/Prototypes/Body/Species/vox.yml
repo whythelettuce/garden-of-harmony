@@ -67,8 +67,8 @@
     enum.HumanoidVisualLayers.TailOverlay:
       limit: 4 # Imp: multiple marking options
       required: false
-=======
-      default: [ VoxTail ]
+    enum.HumanoidVisualLayers.UndergarmentTop:
+      limit: 1
       required: false
       nudityDefault: [ UndergarmentTopTanktopVox ]
     enum.HumanoidVisualLayers.UndergarmentBottom:
