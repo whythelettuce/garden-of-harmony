@@ -77,8 +77,6 @@
         nameFormat: name-format-wizard
       mindRoles:
       - MindRoleWizard
-  - type: GameRule
-    cancelPresetOnTooFewPlayers: false
 
 - type: entity
   parent: BaseXenoborgsRule
