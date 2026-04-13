@@ -50,14 +50,14 @@ public sealed class ClothingGrantingSystem : EntitySystem
         {
             var newComp = (Component) _componentFactory.GetComponent(name);
 
-            if (HasComp(args.EquipTarget, newComp.GetType()))
+            if (HasComp(args.EquipTarget, newComp.GetType())) //Harmony change- Equipee -> EquipTarget
                 continue;
 
             newComp.Owner = args.EquipTarget;
 
             var temp = (object) newComp;
             _serializationManager.CopyTo(data.Component, ref temp);
-            AddComp(args.EquipTarget, (Component)temp!);
+            AddComp(args.EquipTarget, (Component)temp!); //Harmony change- EntityManager.AddComponent -> AddComp, Equipee -> EquipTarget
 
             component.Active[name] = true; // Goobstation
         }
@@ -76,7 +76,7 @@ public sealed class ClothingGrantingSystem : EntitySystem
 
             var newComp = (Component) _componentFactory.GetComponent(name);
 
-            RemComp(args.EquipTarget, newComp.GetType());
+            RemComp(args.EquipTarget, newComp.GetType()); //Harmony change- Equipee -> EquipTarget
             component.Active[name] = false; // Goobstation
         }
 
@@ -93,7 +93,7 @@ public sealed class ClothingGrantingSystem : EntitySystem
         if (!clothing.Slots.HasFlag(args.SlotFlags))
             return;
 
-        EnsureComp<TagComponent>(args.EquipTarget);
+        EnsureComp<TagComponent>(args.EquipTarget); //Harmony change- Equipee -> EquipTarget
         _tagSystem.AddTag(args.EquipTarget, component.Tag);
 
         component.IsActive = true;
@@ -104,7 +104,7 @@ public sealed class ClothingGrantingSystem : EntitySystem
         if (!component.IsActive)
             return;
 
-        _tagSystem.RemoveTag(args.EquipTarget, component.Tag);
+        _tagSystem.RemoveTag(args.EquipTarget, component.Tag); //Harmony change- Equipee -> EquipTarget
 
         component.IsActive = false;
     }
