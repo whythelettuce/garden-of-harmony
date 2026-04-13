@@ -64,15 +64,17 @@
   - type: ReplacementAccent
     accent: liar
 
-- type: trait
-  id: ScottishAccent
-  name: trait-scottish-name
-  description: trait-scottish-desc
-  category: SpeechTraits
-  cost: 1
-  components:
-  - type: ReplacementAccent
-    accent: scottish
+# Harmony change- replaced with DeltaV's Scottish accent
+# - type: trait
+#   id: ScottishAccent
+#   name: trait-scottish-name
+#   description: trait-scottish-desc
+#   category: SpeechTraits
+#   cost: 1
+#   components:
+#   - type: ReplacementAccent
+#     accent: scottish
+# End Harmony Change
 
 # 2 Cost
 
