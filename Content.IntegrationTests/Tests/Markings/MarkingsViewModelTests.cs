@@ -112,7 +112,7 @@ public sealed class MarkingsViewModelTests
         Model.EnforceLimits = false;
         Assert.That(Model.TrySelectMarking(Torso, HumanoidVisualLayers.Chest, MothChestGothic), Is.True);
         Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)!, Has.Count.EqualTo(5));
-        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)![4].MarkingId, Is.EqualTo(MothChestFan));
+        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)![4].MarkingId, Is.EqualTo(MothChestGothic));
 
         // End Harmony Change
     }
