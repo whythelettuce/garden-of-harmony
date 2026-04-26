@@ -8,16 +8,14 @@
   color: "#df883c"
   recognizable: true
   metabolisms:
-    Food:
+    Digestion:
+      metabolites:
+        Protein: 0.2
+        Nutriment: 0.3
+    Bloodstream:
       effects:
-      - !type:AdjustReagent
-        reagent: Protein
-        amount: 0.2
       - !type:SatiateThirst
         factor: -0.2 # peanut butter
-      - !type:AdjustReagent
-        reagent: Nutriment
-        amount: 0.3
 
 - type: reagent
   id: JellyGrape
@@ -29,11 +27,7 @@
   color: "#4e116c"
   recognizable: true
   metabolisms:
-    Food:
-      effects:
-      - !type:AdjustReagent
-        reagent: Vitamin
-        amount: 0.4
-      - !type:AdjustReagent
-        reagent: Nutriment
-        amount: 0.1
+    Digestion:
+      metabolites:
+        Vitamin: 0.4
+        Nutriment: 0.1
