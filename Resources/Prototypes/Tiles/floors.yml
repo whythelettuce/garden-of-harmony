@@ -109,7 +109,7 @@
 - type: tile
   id: FloorSteelOffset
   name: tiles-steel-floor-offset
-  sprite: /Textures_Impstation/Tiles/Steel/steel_offset.png # Imp
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_offset.png # Imp
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -229,7 +229,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  FloorTileItemPlastic # Imp Edit, no plastic floor item upstream
+  itemDrop: FloorTileItemPlastic # Imp Edit, no plastic floor item upstream
   heatCapacity: 10000
 
 - type: tile
@@ -640,6 +640,14 @@
   id: FloorMono
   name: tiles-mono-floor
   sprite: /Textures/_Impstation/Tiles/Steel/steel_mono.png # Imp Edit
+  # imp edit start
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  # imp edit end
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
