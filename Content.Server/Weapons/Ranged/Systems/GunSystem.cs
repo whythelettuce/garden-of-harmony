@@ -175,7 +175,7 @@ public sealed partial class GunSystem : SharedGunSystem
                 RaiseLocalEvent(gun, ref spreadEvent);
 
                 var countEvent = new GunGetAmmoProjectileCountEvent(ammoSpreadComp.Count, ammoEnt); // Imp - New
-                RaiseLocalEvent(gunUid, ref countEvent); // Imp - New
+                RaiseLocalEvent(gun, ref countEvent); // Imp - New
 
                 var angles = LinearSpread(mapAngle - spreadEvent.Spread / 2,
                     mapAngle + spreadEvent.Spread / 2, countEvent.Count); // Imp - Changed ammoSpreadComp to countEvent
