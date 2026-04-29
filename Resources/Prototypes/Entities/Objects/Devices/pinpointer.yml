@@ -230,10 +230,12 @@
   description: A handheld tracking device that leads to the direction of the Mothership core. This one has seen better days.
   components:
   - type: Sprite
+    sprite: Objects/Devices/pinpointer.rsi # imp edit
     layers:
     - state: pinpointer-xenoborg-repaired
       map: ["enum.PinpointerLayers.Base"]
   - type: Icon
+    sprite: Objects/Devices/pinpointer.rsi # imp edit
     state: pinpointer-xenoborg-repaired
   - type: Construction
     graph: RepairMothershipPinpointer
