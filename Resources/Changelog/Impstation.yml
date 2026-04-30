@@ -1,21 +1,4 @@
 ﻿Entries:
-- author: sowelipililimute
-  changes:
-  - message: Zombie infection mechanics have been overhauled! Chemistry lab exploded?
-      Try bloodletting like leeches are in style!
-    type: Add
-  - message: Currently metabolizing and recently metabolized medical reagents are
-      now indicated in the health analyzer
-    type: Add
-  - message: Patients with stopped hearts now have an examine message cueing others
-      in that they need CPR
-    type: Add
-  - message: The defibrillator will now announce if the patient's condition may cause
-      the heart to stop after defibrillation
-    type: Add
-  id: 2282
-  time: '2025-09-23T01:53:21.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3494
 - author: Banditoz
   changes:
   - message: You can now move while scanning somebody with the health analyzer.
@@ -4111,3 +4094,11 @@
   id: 2781
   time: '2026-04-28T19:28:18.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4264
+- author: Simul-ad-Astra
+  changes:
+  - message: NT's Branding & Marketing Division has designed a new bomber jacket for
+      the warden!
+    type: Add
+  id: 2782
+  time: '2026-04-30T00:32:05.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4302
