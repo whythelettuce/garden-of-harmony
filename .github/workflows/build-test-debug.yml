@@ -64,7 +64,6 @@ jobs:
           --configuration DebugOpt `
           Content.IntegrationTests/Content.IntegrationTests.csproj `
           --blame-hang `
-          --blame-hang-timeout 10m `
           --blame-crash `
           -v normal `
           -- `
