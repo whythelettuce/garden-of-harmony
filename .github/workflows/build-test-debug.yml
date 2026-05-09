@@ -11,10 +11,9 @@ on:
 jobs:
   build:
     if: github.actor != 'ImpstationBot' && github.event.pull_request.draft == false
-    timeout-minutes: 70
     strategy:
       matrix:
-        os: [ubuntu-24.04]
+        os: [ubuntu-latest]
 
     runs-on: ${{ matrix.os }}
 
@@ -43,50 +42,21 @@ jobs:
       run: dotnet restore
 
     - name: Build Project
-      run: dotnet build --configuration DebugOpt --no-restore
-
-    - name: Memory Info Before Tests
-      run: free -h
+      run: dotnet build --configuration DebugOpt --no-restore /m
 
     - name: Run Content.Tests
-      run: |
-        dotnet test \
-          --no-build \
-          --configuration DebugOpt \
-          Content.Tests/Content.Tests.csproj \
-          -- NUnit.ConsoleOut=0
+      run: dotnet test --no-build --configuration DebugOpt Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0
 
     - name: Run Content.IntegrationTests
       shell: pwsh
       run: |
-        dotnet test `
-          --no-build `
-          --configuration DebugOpt `
-          Content.IntegrationTests/Content.IntegrationTests.csproj `
-          --blame-hang `
-          --blame-crash `
-          -v normal `
-          -- `
-          NUnit.ConsoleOut=0 `
-          NUnit.MapWarningTo=Failed `
-          NUnit.NumberOfTestWorkers=1
-
-    - name: Memory Info After Tests
-      if: always()
-      run: free -h
-
-    - name: Upload Test Results
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: test-results
-        path: '**/TestResults/**'
-
+        $env:DOTNET_gcServer=1
+        dotnet test --no-build --configuration DebugOpt Content.IntegrationTests/Content.IntegrationTests.csproj -- NUnit.ConsoleOut=0 NUnit.MapWarningTo=Failed
   ci-success:
     name: Build & Test Debug
     needs:
       - build
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: CI succeeded
         run: exit 0
