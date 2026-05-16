@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: DinnerCalzone
-  changes:
-  - message: Map population ranges have been tweaked to have more clear brackets for
-      maps to roll.
-    type: Tweak
-  id: 2290
-  time: '2025-09-23T16:25:10.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3501
 - author: sowelipililimute
   changes:
   - message: Station AI and cyborgs now have an in-built PDA
@@ -4100,3 +4092,10 @@
   id: 2789
   time: '2026-05-16T09:56:43.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4357
+- author: msTheowo
+  changes:
+  - message: The NEIL announcer has been removed.
+    type: Remove
+  id: 2790
+  time: '2026-05-16T09:59:31.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4345
