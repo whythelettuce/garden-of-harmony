@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: sowelipililimute
-  changes:
-  - message: Station AI and cyborgs now have an in-built PDA
-    type: Add
-  id: 2291
-  time: '2025-09-23T16:25:55.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3419
 - author: Stonylogray
   changes:
   - message: Due to perceived anti-corporate tendencies, Nanotrasen will be training
@@ -4099,3 +4092,10 @@
   id: 2790
   time: '2026-05-16T09:59:31.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4345
+- author: starlighthowls
+  changes:
+  - message: Added a new loby art!
+    type: Add
+  id: 2791
+  time: '2026-05-16T10:13:05.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4369
