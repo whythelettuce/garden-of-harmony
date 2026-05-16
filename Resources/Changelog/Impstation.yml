@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: ATDoop
-  changes:
-  - message: Discount Dan has released an exciting new lineup of Shrimp Derived BioProducts!
-      Visit your local ShrimpVend today!
-    type: Add
-  id: 2294
-  time: '2025-09-27T09:13:10.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3512
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: The Ouroboros will eat its veggies now
@@ -4099,3 +4091,16 @@
   id: 2793
   time: '2026-05-16T10:18:20.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4347
+- author: mkanke
+  changes:
+  - message: Added a Book Cart to the game
+    type: Add
+  - message: Bookshelves can now be labeled with paper
+    type: Add
+  - message: Added Bookshelf Label Folder for a sampling of paper colors
+    type: Add
+  - message: Books Bag and Book Shelf inventory sizes adjusted
+    type: Tweak
+  id: 2794
+  time: '2026-05-16T10:32:39.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4363
