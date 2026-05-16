@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: formlessnameless
-  changes:
-  - message: Offmed is no longer with us.
-    type: Remove
-  id: 2293
-  time: '2025-09-25T18:23:07.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3507
 - author: ATDoop
   changes:
   - message: Discount Dan has released an exciting new lineup of Shrimp Derived BioProducts!
@@ -4098,3 +4091,11 @@
   id: 2792
   time: '2026-05-16T10:14:26.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4299
+- author: lolmatdi
+  changes:
+  - message: Blatantly Nuclear by Mrjajkes will no longer cause the jukebox to produce
+      psychic waves instead of sound waves
+    type: Fix
+  id: 2793
+  time: '2026-05-16T10:18:20.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4347
