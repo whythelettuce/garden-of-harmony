@@ -17,10 +17,10 @@
   - type: Sprite
     noRot: true
     sprite: Structures/Decoration/bonfire.rsi
-  - type: PointLight
-    radius: 5
-    energy: 3
-    color: "#FFC90C"
+  #- type: PointLight #imp edit, handled with FireVisuals
+  #  radius: 5
+  #  energy: 3
+  #  color: "#FFC90C"
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Wood
@@ -45,11 +45,13 @@
     range: 5
     sound:
       path: /Audio/Ambience/Objects/fireplace.ogg
-  #- type: AlwaysHot #imp,
+  #- type: AlwaysHot #imp edit, this is and IgnitionSource is handled with Flammable instead
   #- type: IgnitionSource
   #  temperature: 700
   #  ignited: true
+  - type: RequireProjectileTarget
   # imp edit start
+  - type: Appearance
   - type: EntityHeater
     requirePower: false
   - type: ItemPlacer
@@ -90,7 +92,8 @@
   components:
   - type: Sprite
     layers:
-    - state: burning
+    - state: bonfire #imp edit, bonfires look invisible without this
+    #- state: burning #imp edit, handled by FireVisuals
   - type: Construction
     graph: Bonfire
     node: bonfire
@@ -104,16 +107,20 @@
   - type: Sprite
     sprite: Structures/Decoration/bonfire_stake.rsi
     layers:
-    - state: burning
+    - state: bonfire #imp edit, bonfires look invisible without this
+    #- state: burning #imp edit, handled by FireVisuals
     offset: "0, 0.5"
   - type: Strap
     position: Stand
-    buckleOffset: "0, 0.5"
+    buckleOffset: "0, 0.4"
     buckleDoafterTime: 5
-  - type: IgniteOnBuckle
+  #- type: IgniteOnBuckle #imp edit, TODO: should be handled by Flammable from parent, but collision wonkiness prevents ignition on buckle, needs to be updated
   - type: Construction
     graph: Bonfire
     node: bonfireStake
+  - type: FireVisuals #imp edit, needs to use its own sprites for FireVisuals since the sprite isn't 32x32
+    sprite: Structures/Decoration/bonfire_stake.rsi
+    normalState: burning
 
 - type: entity
   parent: BaseBonfire
@@ -123,6 +130,7 @@
   components:
   - type: Sprite
     layers:
+    - state: bonfire #imp edit, bonfires look invisible without this
     - state: legionnaire_bonfire
   - type: PointLight
     color: "#FF5601"

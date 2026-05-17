@@ -10,9 +10,9 @@
   id: RandomNaturalArtifactTable
   table: !type:GroupSelector
     children:
-    - id: ComplexXenoArtifact
+    - id: NaturalXenoArtifactStructure
       weight: 2
-    - id: ComplexXenoArtifactItem
+    - id: NaturalXenoArtifactItem
 
 - type: entity
   id: RandomReticulatedArtifactSpawner
