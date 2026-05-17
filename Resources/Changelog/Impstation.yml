@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: entings
-  changes:
-  - message: 'Alert: Wild boar have been found infesting the station''s ventilation
-      systems.'
-    type: Add
-  id: 2298
-  time: '2025-09-28T22:46:10.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3478
 - author: honeyed-lemons
   changes:
   - message: Heretics can now make ghouls again.. Huzzah!
@@ -4104,3 +4096,14 @@
   id: 2797
   time: '2026-05-17T03:51:18.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4258
+- author: VeeNomine
+  changes:
+  - message: Added magboots to derelict mining borg
+    type: Add
+  - message: Added solution and health scanning to derelict medical borg
+    type: Add
+  - message: Changed the derelict generic borg to the derelict science borg
+    type: Tweak
+  id: 2798
+  time: '2026-05-17T05:26:08.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4350
