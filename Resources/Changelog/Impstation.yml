@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: honeyed-lemons
-  changes:
-  - message: Heretics can now make ghouls again.. Huzzah!
-    type: Fix
-  id: 2299
-  time: '2025-09-28T22:47:21.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3519
 - author: hivehum
   changes:
   - message: Poly's name is spelled correctly.
@@ -4107,3 +4100,10 @@
   id: 2798
   time: '2026-05-17T05:26:08.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4350
+- author: msTheowo
+  changes:
+  - message: Syndicate uplinks have received a new coat of paint.
+    type: Tweak
+  id: 2799
+  time: '2026-05-17T05:43:07.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4362
