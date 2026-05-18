@@ -2,8 +2,8 @@
   id: Jellyfish
   mapName: 'Jellyfish'
   mapPath: /Maps/_Impstation/jellyfish.yml
-  minPlayers: 1
-  maxPlayers: 25
+  minPlayers: 8
+  maxPlayers: 34
   stations:
     Jellyfish:
       stationProto: StandardNanotrasenStation
