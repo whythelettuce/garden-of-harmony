@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: hivehum
-  changes:
-  - message: Poly's name is spelled correctly.
-    type: Fix
-  id: 2300
-  time: '2025-09-29T00:53:40.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3521
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: A number of weapon sprites have been changed. See the PR for specifics.
@@ -4107,3 +4100,13 @@
   id: 2799
   time: '2026-05-17T05:43:07.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4362
+- author: kipdotnet
+  changes:
+  - message: Trawler has been updated for playtesting again!
+    type: Tweak
+  - message: Fixed the "mutters" emote being whitelisted wrong. it should now be for
+      silicons only as it was intended to be.
+    type: Fix
+  id: 2800
+  time: '2026-05-18T10:43:43.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4378
