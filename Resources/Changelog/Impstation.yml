@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: Hydra's rate of fire and pellet spread reverted
-    type: Tweak
-  id: 2302
-  time: '2025-10-02T19:59:59.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3527
 - author: Tox3ct
   changes:
   - message: Recent Nanotrasen antibiotic manufacturing has been proven less effective
@@ -4110,3 +4103,11 @@
   id: 2801
   time: '2026-05-19T07:31:11.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4377
+- author: mkanke, Tea
+  changes:
+  - message: Folding chair can now be wielded for extra damage. Go live out your WWE
+      dreams!
+    type: Tweak
+  id: 2802
+  time: '2026-05-19T07:59:30.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4372
