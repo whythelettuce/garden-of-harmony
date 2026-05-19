@@ -12,7 +12,7 @@ pleebnar-vision-3-name = Fear
 pleebnar-vision-4 = The Tully monster floating through space.
 pleebnar-vision-4-name = Tully
 
-pleebnar-vision-5 = A yummy looking sandwich rotating.
+pleebnar-vision-5 = A yummy-looking sandwich rotating.
 pleebnar-vision-5-name = Sandwich
 
 pleebnar-vision-6 = A space battle going on above the Planet Teo.
@@ -54,7 +54,7 @@ pleebnar-vision-17-name = Egg
 pleebnar-vision-18 = Writhing worms.
 pleebnar-vision-18-name = Worm
 
-pleebnar-vision-19 = Your own face contorted in agony.
+pleebnar-vision-19 = Your own face, contorted in agony.
 pleebnar-vision-19-name = Agony
 
 pleebnar-vision-20 = A little green alien child skipping along with a lollipop in hand.
@@ -72,7 +72,7 @@ pleebnar-vision-23-name = Pig
 pleebnar-vision-24 = A laughing skull.
 pleebnar-vision-24-name = Skull
 
-pleebnar-vision-25 = A maze; its walls are covered in the faces of mandrills staring at you.
+pleebnar-vision-25 = A maze. Its walls are covered in the faces of mandrills staring at you.
 pleebnar-vision-25-name = Maze
 
 pleebnar-vision-26 = A rotating cube.
@@ -84,7 +84,7 @@ pleebnar-vision-27-name = Trapped
 pleebnar-vision-28 = A parliament chamber filled with barnyard animals.
 pleebnar-vision-28-name = Council
 
-pleebnar-vision-29 = A shadow blankets everything, despite nothing blocking the light.
+pleebnar-vision-29 = A shadow blanketing everything, despite nothing blocking the light.
 pleebnar-vision-29-name = Shadow
 
 pleebnar-vision-30 = A golden coin.
@@ -201,7 +201,7 @@ pleebnar-vision-66-name = Fire
 pleebnar-vision-67 = A mass of fat little white worms; they all have your face.
 pleebnar-vision-67-name = Larva
 
-pleebnar-vision-68 = A burnt husk of a home, it feels familiar.
+pleebnar-vision-68 = A burnt husk of a home. It feels familiar.
 pleebnar-vision-68-name = My House
 
 pleebnar-vision-69 = A little puppy squirming about worthlessly.
@@ -243,13 +243,13 @@ pleebnar-vision-80-name = Enemies
 pleebnar-vision-81 = A human playing a game that seems all too familiar to you.
 pleebnar-vision-81-name = SS14
 
-pleebnar-vision-82 = A priest playing an organ, but with every note a jet of inky dark fluid flies out of the pipes.
+pleebnar-vision-82 = A priest playing an organ, but with every note a jet of inky, dark fluid flies out of the pipes.
 pleebnar-vision-82-name = Church
 
-pleebnar-vision-83 = A family at around an empty dinner table; they have no faces.
+pleebnar-vision-83 = A family sat around an empty dinner table; they have no faces.
 pleebnar-vision-83-name = Family
 
-pleebnar-vision-84 = You see a cyan haired imp whom is quickly enshrouded by white smoke.
+pleebnar-vision-84 = A cyan-haired imp who is quickly enshrouded by white smoke.
 pleebnar-vision-84-name = The Imp
 
 pleebnar-vision-85 = A universe where everything is the same except "alien" is spelled "alian."
@@ -291,13 +291,13 @@ pleebnar-vision-96-name = Pink
 pleebnar-vision-97 = The most boring room you have ever seen.
 pleebnar-vision-97-name = Boredom
 
-pleebnar-vision-98 = Instructions on how to prevent some kind of terrorist attack -- One that apparently already happened around half a millennium ago. You quickly forget the specifics.
+pleebnar-vision-98 = Instructions on how to prevent some kind of terrorist attack -- one that apparently already happened around half a millennium ago. You quickly forget the specifics.
 pleebnar-vision-98-name = Warning
 
 pleebnar-vision-99 = A pale, bald man with pointed ears and stiff posture. He stands in an arched doorway. A wave of fear washes over you.
 pleebnar-vision-99-name = Noseferatu
 
-pleebnar-vision-100 = You winning the big game.
+pleebnar-vision-100 = Yourself, winning the big game.
 pleebnar-vision-100-name = Big Game
 
 pleebnar-vision-101 = Your worst enemy.
@@ -318,7 +318,7 @@ pleebnar-vision-105-name = Missive
 pleebnar-vision-106 = The last thing your father said to you.
 pleebnar-vision-106-name = Reminder
 
-pleebnar-vision-107 = The fabric of reality tears apart, revealing something greater looking in.
+pleebnar-vision-107 = The fabric of reality tearing apart, revealing something greater looking in.
 pleebnar-vision-107-name = Watcher
 
 pleebnar-vision-108 = A comic featuring an orange cat. It is being thrown out a window.
@@ -372,7 +372,7 @@ pleebnar-vision-123-name = Blood Man
 pleebnar-vision-124 = Eggs being tossed at a brick wall, splattering against it.
 pleebnar-vision-124-name = Splatter
 
-pleebnar-vision-125 = A group of figures marching through a blizzard by lanternlight. On their heads rest tall red pointed caps.
+pleebnar-vision-125 = A group of figures marching through a blizzard by lanternlight. On their heads rest tall, red pointed caps.
 pleebnar-vision-125-name = North Pole
 
 pleebnar-vision-126 = Your station a decade ago. The remains of your station a decade from now.
@@ -390,22 +390,22 @@ pleebnar-vision-129-name = Hunger
 pleebnar-vision-130 = An extended combat sequence where you shirtlessly fight your Rival by beating each other up with guitars.
 pleebnar-vision-130-name = Showdown
 
-pleebnar-vision-131 = A memory of a birthday from your childhood that you did not have. You eat foods that you do not recognize, and the presents you receive are labeled in a language you haven't seen before, and will never see again.
+pleebnar-vision-131 = A memory of a birthday from your childhood that you did not have. You eat foods that you do not recognize, and the presents you receive are labeled in a language you haven't seen before and will never see again.
 pleebnar-vision-131-name = Celebration
 
-pleebnar-vision-132 = A golden man floats in front of you, completely emotionless.
+pleebnar-vision-132 = A golden man that floats in front of you, completely emotionless.
 pleebnar-vision-132-name = Idol
 
 pleebnar-vision-133 = A childhood friend you do not remember.
 pleebnar-vision-133-name = Familiarity
 
-pleebnar-vision-134 = A puddle of hyper-realistic scary blood.
+pleebnar-vision-134 = A puddle of hyperrealistic scary blood.
 pleebnar-vision-134-name = Creepy
 
 pleebnar-vision-135 = A small green alien pledging allegiance to the logo of Nanotrasen.
 pleebnar-vision-135-name = Loyalty
 
-pleebnar-vision-136 = A small green alien pledging allegiance to the logo of The Syndicate.
+pleebnar-vision-136 = A small green alien pledging allegiance to the logo of the Syndicate.
 pleebnar-vision-136-name = Treachery
 
 pleebnar-vision-137 = A man in a formal suit and tie. He is hunched over on all fours eating pellets.
@@ -453,7 +453,7 @@ pleebnar-vision-150-name = God
 pleebnar-vision-151 = An open ocean, full of eyes.
 pleebnar-vision-151-name = Grand Sight
 
-pleebnar-vision-152 = The emitters of a tesla utterly destroyed by meteors.
+pleebnar-vision-152 = The emitters of a tesla, utterly destroyed by meteors.
 pleebnar-vision-152-name = Unleashed
 
 pleebnar-vision-153 = A cavernous hole in the station's hull. It's growing.
@@ -477,16 +477,16 @@ pleebnar-vision-158-name = Gondal
 pleebnar-vision-159 = A sinister warehouse full of weaponry and teleportation devices. A laborer is piling numerous bags of pajamas into a large crate.
 pleebnar-vision-159-name = Distribution
 
-pleebnar-vision-160 = The inside your jaw during the last verbal conversation you had. The world shakes wildly as you talk.
+pleebnar-vision-160 = The inside of your jaw during the last verbal conversation you had. The world shakes wildly as you talk.
 pleebnar-vision-160-name = Converse
 
-pleebnar-vision-161 = A game show host shooting you with a revolver on-stage. Fanfares and prizes jump through your mind as everything fades to black.
+pleebnar-vision-161 = A game show host shooting you with a revolver onstage. Fanfares and prizes jump through your mind as everything fades to black.
 pleebnar-vision-161-name = Reward
 
 pleebnar-vision-162 = A vast, planet-spanning arcology full of cryogenic pods. The pods have lost power; you are surrounded by a billion rotting corpses.
 pleebnar-vision-162-name = Rot
 
-pleebnar-vision-163 = You have a mansion. A grand mansion. A mansion with a vast pantry. You are walking through it, searching for canned beans. But you cannot find canned beans. There are no canned beans in your pantry. Doom washes over you.
+pleebnar-vision-163 = Yourself, walking through a mansion. A grand mansion. A mansion with a vast pantry. You are searching for canned beans, but you cannot find canned beans. There are no canned beans in your pantry. Doom washes over you.
 pleebnar-vision-163-name = Bereft
 
 pleebnar-vision-164 = A caricature of yourself, captioned in an unknown hieroglyphic language. It seems to be mocking you.
@@ -495,13 +495,13 @@ pleebnar-vision-164-name = Mockery
 pleebnar-vision-165 = Your toe falling off.
 pleebnar-vision-165-name = Toe
 
-pleebnar-vision-166 = A portly little man with blue overalls and gloves running through a green field and kicking the air.
+pleebnar-vision-166 = A portly little man with blue overalls and gloves, running through a green field and kicking the air.
 pleebnar-vision-166-name = The Brother
 
 pleebnar-vision-167 = An elderly man in white robes with a tall crown on his head. You see the crown levitate off his head to reveal a tiny green alien standing beneath it and pulling his hair.
 pleebnar-vision-167-name = Control
 
-pleebnar-vision-168 = You see nothing but pure darkness. Despite this, you somehow know exactly where you are: The bottom of the galaxy's deepest ocean.
+pleebnar-vision-168 = Nothing but pure darkness. Despite this, you somehow know exactly where you are: The bottom of the galaxy's deepest ocean.
 pleebnar-vision-168-name = Depths
 
 pleebnar-vision-169 = A portrait of a woman. Her eyes lock with yours, a slight enigmatic smile on her face. You have never seen this before in your life.
@@ -534,5 +534,5 @@ pleebnar-vision-177-name = Static
 pleebnar-vision-178 = Instructions for how to assemble a burrito, written as if you had no previous awareness of the concept.
 pleebnar-vision-178-name = Burrito
 
-pleebnar-vision-179 = [No vision provided, this pleebnar has aphantasia and is self conscious about it.]
+pleebnar-vision-179 = [No vision provided, this pleebnar has aphantasia and is self-conscious about it.]
 pleebnar-vision-179-name = Aphantasia
