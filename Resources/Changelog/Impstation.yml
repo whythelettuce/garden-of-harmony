@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Tox3ct
-  changes:
-  - message: Recent Nanotrasen antibiotic manufacturing has been proven less effective
-      in treating parasitic pathogens. Ambuzol now requires Phalanximine as a replacement
-      to Dylovene.
-    type: Tweak
-  id: 2303
-  time: '2025-10-03T01:34:30.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3513
 - author: msTheowo
   changes:
   - message: Strong prescription lenses will definitely always spawn now. If they're
@@ -4111,3 +4102,10 @@
   id: 2802
   time: '2026-05-19T07:59:30.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4372
+- author: kipdotnet
+  changes:
+  - message: Trawler is now in rotation for minpop.
+    type: Add
+  id: 2803
+  time: '2026-05-20T05:50:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4382
