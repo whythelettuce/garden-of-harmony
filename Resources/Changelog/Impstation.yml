@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: starlighthowls
-  changes:
-  - message: Ungu are now starting to be employed in the IMP sector, please give them
-      a warm welcome! :8)
-    type: Add
-  id: 2305
-  time: '2025-10-03T20:32:23.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3405
 - author: ultramario1998
   changes:
   - message: Bluespace lockers' destinations are now randomized.
@@ -4108,3 +4100,12 @@
   id: 2804
   time: '2026-05-20T06:38:16.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4368
+- author: DinnerCalzone
+  changes:
+  - message: Marathon, Plasma, and Train now have a lawvend mapped in their AI core.
+    type: Add
+  - message: Plasma now has one Service Attendant slot enabled on it.
+    type: Add
+  id: 2805
+  time: '2026-05-20T08:21:23.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4381
