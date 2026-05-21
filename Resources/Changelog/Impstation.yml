@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: ultramario1998
-  changes:
-  - message: Bluespace lockers' destinations are now randomized.
-    type: Tweak
-  id: 2306
-  time: '2025-10-03T20:31:21.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3254
 - author: honeyed-lemons
   changes:
   - message: Visitor ghost roles can now appear as non-standard species. Please watch
@@ -4109,3 +4102,10 @@
   id: 2805
   time: '2026-05-20T08:21:23.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4381
+- author: starlighthowls
+  changes:
+  - message: Monarch is back for playtesting!
+    type: Add
+  id: 2806
+  time: '2026-05-21T11:29:04.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4361
