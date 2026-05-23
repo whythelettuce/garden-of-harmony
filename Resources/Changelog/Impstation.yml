@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Squamatic
-  changes:
-  - message: Cluster has been updated and re-rotated!
-    type: Add
-  id: 2309
-  time: '2025-10-05T10:02:07.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3524
 - author: mqole
   changes:
   - message: Decapoids have learned how to carry, too!
@@ -4106,3 +4099,12 @@
   id: 2808
   time: '2026-05-23T13:03:35.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4396
+- author: starlighthowls
+  changes:
+  - message: Monarch added to map rotation.
+    type: Add
+  - message: Dolphin's max pop has been lowered to 20.
+    type: Tweak
+  id: 2809
+  time: '2026-05-23T13:48:50.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4393
