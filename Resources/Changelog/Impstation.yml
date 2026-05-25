@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: starlighthowls
-  changes:
-  - message: Ungu are better at breathing now.
-    type: Tweak
-  id: 2314
-  time: '2025-10-08T22:56:22.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3549
 - author: yesteryuri
   changes:
   - message: Dogs will attack couriers with their special bark attack !
@@ -4106,3 +4099,12 @@
   id: 2813
   time: '2026-05-25T08:32:15.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4399
+- author: meridiadottxt
+  changes:
+  - message: The RND department of Cybersun has been hard at work, their reverse-engineered
+      version of the Spider Clan stealth suit is now available in the uplink of all
+      Syndicate field operatives!
+    type: Add
+  id: 2814
+  time: '2026-05-25T08:50:17.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4295
