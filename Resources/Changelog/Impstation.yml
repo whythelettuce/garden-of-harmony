@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: honeyed-lemons
-  changes:
-  - message: Ungus have learned their inside voices.
-    type: Tweak
-  id: 2313
-  time: '2025-10-08T22:08:26.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3547
 - author: starlighthowls
   changes:
   - message: Ungu are better at breathing now.
@@ -4104,3 +4097,12 @@
   id: 2812
   time: '2026-05-25T08:15:19.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4392
+- author: FlippenPage
+  changes:
+  - message: gorillas can now punch you across the room and make you flip. watch out.
+    type: Fix
+  - message: gorillas now have more emotes!
+    type: Fix
+  id: 2813
+  time: '2026-05-25T08:32:15.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4399
