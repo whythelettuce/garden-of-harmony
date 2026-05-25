@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: msTheowo
-  changes:
-  - message: Fax machines can now send a radio message when they receive a fax.
-    type: Add
-  id: 2316
-  time: '2025-10-11T04:47:03.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3529
 - author: Pinkbat5
   changes:
   - message: Some accents are now free to select.
@@ -4108,3 +4101,11 @@
   id: 2815
   time: '2026-05-25T08:53:46.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4403
+- author: FancyPlanks
+  changes:
+  - message: Something's changed in the sector alcohol recipes and now being drunk
+      feels different!
+    type: Tweak
+  id: 2816
+  time: '2026-05-25T08:59:59.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4343
