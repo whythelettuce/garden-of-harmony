@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Pinkbat5
-  changes:
-  - message: Some accents are now free to select.
-    type: Tweak
-  id: 2317
-  time: '2025-10-14T01:47:48.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3457
 - author: msTheowo
   changes:
   - message: Natural artifacts now behave more similarly to reticulated artifacts,
@@ -4109,3 +4102,13 @@
   id: 2816
   time: '2026-05-25T08:59:59.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4343
+- author: starlighthowls
+  changes:
+  - message: New strat unlocked, simply eat your opponents TippyTump cards.
+    type: Tweak
+  - message: Added special TippyTrumps packs to the traitor uplink which can be used
+      to summon monsters.
+    type: Add
+  id: 2817
+  time: '2026-05-26T07:23:52.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4051
