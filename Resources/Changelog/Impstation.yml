@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: msTheowo
-  changes:
-  - message: Natural artifacts now behave more similarly to reticulated artifacts,
-      but they are still their own thing.
-    type: Tweak
-  id: 2318
-  time: '2025-10-14T01:53:15.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3526
 - author: VeeNomine
   changes:
   - message: Added the Shamisen, a traditional Japanese string instrument.
@@ -4112,3 +4104,10 @@
   id: 2817
   time: '2026-05-26T07:23:52.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4051
+- author: TheGrimbeeper
+  changes:
+  - message: NPC can waddle
+    type: Fix
+  id: 2818
+  time: '2026-05-26T07:33:26.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4297
