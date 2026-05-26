@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: FancyPlanks
-  changes:
-  - message: Wizards can no longer buy the Animate spell until it is fixed!
-    type: Remove
-  id: 2320
-  time: '2025-10-14T14:14:32.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3562
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: New visuals for stun projectiles and their hit animations!
@@ -4106,3 +4099,12 @@
   id: 2819
   time: '2026-05-26T09:05:14.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4402
+- author: msTheowo
+  changes:
+  - message: Removed the godo emotes from Nanochat.
+    type: Remove
+  - message: Added gray emotes to Nanochat.
+    type: Add
+  id: 2820
+  time: '2026-05-26T11:19:08.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4398
