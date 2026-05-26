@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Moodotsuki
-  changes:
-  - message: the head of security's shoulder holster can now store SecLink utility
-      items.
-    type: Fix
-  id: 2323
-  time: '2025-10-15T03:05:29.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3560
 - author: starlighthowls
   changes:
   - message: Ungu got better at smoking, mooing, eating and more!
@@ -4109,3 +4101,14 @@
   id: 2822
   time: '2026-05-26T23:46:48.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4229
+- author: Simul-ad-Astra
+  changes:
+  - message: NT's RND team's years of hard work figuring out how to let you wideswing
+      with crushers has finally paid off!
+    type: Tweak
+  - message: To be clear, this means crusher's controls have changed, now letting
+      you wideswing with them
+    type: Tweak
+  id: 2823
+  time: '2026-05-26T23:58:00.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4245
