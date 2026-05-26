@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: VeeNomine
-  changes:
-  - message: Xenoarcheologists deployed to the Sol system have uncovered a primitive
-      instrument historians call the "theremin". They are purchasable via cargo.
-    type: Add
-  id: 2322
-  time: '2025-10-14T15:08:52.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3559
 - author: Moodotsuki
   changes:
   - message: the head of security's shoulder holster can now store SecLink utility
@@ -4109,3 +4101,11 @@
   id: 2821
   time: '2026-05-26T23:01:37.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4098
+- author: soup4food
+  changes:
+  - message: The background check requirement for crew hired to the Flatline and Eternal
+      shuttles have been loosened due to budgeting.
+    type: Add
+  id: 2822
+  time: '2026-05-26T23:46:48.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4229
