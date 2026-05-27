@@ -17,12 +17,14 @@ using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server.CrewManifest; ///Harmony change- crewManifest added for cargo orders QoL (Crew list)
 
 namespace Content.Server.Cargo.Systems
 {
     public sealed partial class CargoSystem
     {
         [Dependency] private SharedTransformSystem _transformSystem = default!;
+        [Dependency] private CrewManifestSystem _crewManifest = default!; /// Harmony change- crewManifest added for cargo orders QoL (Crew list)
         [Dependency] private EmagSystem _emag = default!;
         [Dependency] private IGameTiming _timing = default!;
 
