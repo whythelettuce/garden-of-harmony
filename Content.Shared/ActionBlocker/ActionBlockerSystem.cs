@@ -147,10 +147,10 @@ namespace Content.Shared.ActionBlocker
             return !itemEv.Cancelled;
         }
 
-        public bool CanSpeak(EntityUid uid)
+        public bool CanSpeak(EntityUid uid, bool whisper = false) // Imp change for Harmony Hypophonia port
         {
             // This one is used as broadcast
-            var ev = new SpeakAttemptEvent(uid);
+            var ev = new SpeakAttemptEvent(uid, whisper); // Imp change for Harmony Hypophonia port
             RaiseLocalEvent(uid, ev, true);
 
             return !ev.Cancelled;
