@@ -16,22 +16,13 @@ namespace Content.Server.Maps;
 
 public sealed partial class GameMapManager : IGameMapManager
 {
-<<<<<<< HEAD
-    [Dependency] private readonly IEntityManager _entityManager = default!;
-    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly IConfigurationManager _configurationManager = default!;
-    // [Dependency] private readonly IPlayerManager _playerManager = default!; Harmony- value unused due to queue
-    [Dependency] private readonly IResourceManager _resMan = default!;
-    [Dependency] private readonly IRobustRandom _random = default!;
-    [Dependency] private readonly IJoinQueueManager _joinQueueManager = default!; // Harmony Queue
-=======
     [Dependency] private IEntityManager _entityManager = default!;
     [Dependency] private IPrototypeManager _prototypeManager = default!;
     [Dependency] private IConfigurationManager _configurationManager = default!;
     // [Dependency] private IPlayerManager _playerManager = default!; Harmony- value unused due to queue
     [Dependency] private IResourceManager _resMan = default!;
     [Dependency] private IRobustRandom _random = default!;
->>>>>>> 01a925da68e9412939c56b62620bd45fec1dfede
+    [Dependency] private IJoinQueueManager _joinQueueManager = default!; // Harmony Queue
 
     [ViewVariables(VVAccess.ReadOnly)]
     private readonly Queue<string> _previousMaps = new();

@@ -86,16 +86,13 @@ public sealed partial class GunUpgradeSystem : EntitySystem
             return;
         }
 
-<<<<<<< HEAD
         // Begin DeltaV Additions
         var attemptEv = new GunUpgradeAttemptEvent(ent, args.User);
         RaiseLocalEvent(args.Used, ref attemptEv);
         if (attemptEv.Cancelled)
             return;
         // End DeltaV Additions
-=======
         args.Handled = _container.Insert(args.Used, _container.GetContainer(ent, ent.Comp.UpgradesContainerId));
->>>>>>> 01a925da68e9412939c56b62620bd45fec1dfede
         _audio.PlayPredicted(ent.Comp.InsertSound, ent, args.User);
         _popup.PopupClient(Loc.GetString("gun-upgrade-popup-insert", ("upgrade", args.Used),("gun", ent.Owner)), args.User);
         _gun.RefreshModifiers(ent.Owner);
