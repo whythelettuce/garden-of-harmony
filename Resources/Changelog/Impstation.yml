@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: starlighthowls
-  changes:
-  - message: Ungu got better at smoking, mooing, eating and more!
-    type: Fix
-  id: 2324
-  time: '2025-10-15T03:29:02.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3551
 - author: honeyed-lemons
   changes:
   - message: Kodepiiae should feel slightly less full after consuming something, but
@@ -4112,3 +4105,11 @@
   id: 2823
   time: '2026-05-26T23:58:00.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4245
+- author: msTheowo
+  changes:
+  - message: Half of the unreadied player population will count for game preset rolling.
+      You should still ready up.
+    type: Tweak
+  id: 2824
+  time: '2026-05-27T00:11:16.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4261
