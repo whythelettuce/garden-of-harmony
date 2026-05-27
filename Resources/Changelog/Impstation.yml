@@ -1,16 +1,4 @@
 ﻿Entries:
-- author: honeyed-lemons
-  changes:
-  - message: Kodepiiae should feel slightly less full after consuming something, but
-      can now do it twice as often.
-    type: Tweak
-  - message: Kodepiiae can now consume rotten corpses, with a downside.
-    type: Tweak
-  - message: Kodepiiae are now a bit heavier
-    type: Tweak
-  id: 2325
-  time: '2025-10-15T03:32:53.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3393
 - author: TheGrimbeeper
   changes:
   - message: Supermatter will now realise that it has eaten all the gas in its room
@@ -4113,3 +4101,21 @@
   id: 2824
   time: '2026-05-27T00:11:16.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4261
+- author: TheGrimbeeper
+  changes:
+  - message: Reticulated artifacts can now be beds (naturals already had that power)
+    type: Tweak
+  - message: Some artifact effect weighting tweaks
+    type: Tweak
+  - message: Larger instruments now spawn from the 'create instrument' artifact effect
+    type: Tweak
+  - message: angry instruments may now spawn from the 'create instrument' artifact
+      effect
+    type: Add
+  - message: Allulalo blood now works for blood trigger
+    type: Fix
+  - message: Some artifacts may be able to detect luck
+    type: Add
+  id: 2825
+  time: '2026-05-27T00:25:03.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4288
