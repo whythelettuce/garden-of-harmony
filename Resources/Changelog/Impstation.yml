@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: TheGrimbeeper
-  changes:
-  - message: Supermatter will now realise that it has eaten all the gas in its room
-      and get hangry.
-    type: Fix
-  id: 2326
-  time: '2025-10-15T03:36:17.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3554
 - author: DVDPlayerOfDiscordFame
   changes:
   - message: The Disabler Carbine has been added, unlocked in the Wave Particle Harnessing
@@ -4119,3 +4111,10 @@
   id: 2825
   time: '2026-05-27T00:25:03.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4288
+- author: eveloop
+  changes:
+  - message: Flares now flicker only towards the end of burning out.
+    type: Tweak
+  id: 2826
+  time: '2026-05-27T00:57:59.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4387
