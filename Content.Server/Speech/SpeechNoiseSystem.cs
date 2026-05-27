@@ -10,14 +10,23 @@ using Robust.Shared.Player; // Harmony - Use RMC14 to mute speechsounds
 
 namespace Content.Server.Speech
 {
-    public sealed class SpeechSoundSystem : EntitySystem
+    public sealed partial class SpeechSoundSystem : EntitySystem
     {
+<<<<<<< HEAD
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IPrototypeManager _protoManager = default!;
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly SharedAudioSystem _audio = default!;
         // Harmony - Use RMC14 system to give the option to mute speechsounds
         [Dependency] private readonly HumanoidVoicelinesSystem _humanoidVoicelines = default!;
+=======
+        [Dependency] private IGameTiming _gameTiming = default!;
+        [Dependency] private IPrototypeManager _protoManager = default!;
+        [Dependency] private IRobustRandom _random = default!;
+        [Dependency] private SharedAudioSystem _audio = default!;
+        // Harmony - Use RMC14 system to give the option to mute speechsounds
+        [Dependency] private HumanoidVoicelinesSystem _humanoidVoicelines = default!;
+>>>>>>> 01a925da68e9412939c56b62620bd45fec1dfede
 
         public override void Initialize()
         {
