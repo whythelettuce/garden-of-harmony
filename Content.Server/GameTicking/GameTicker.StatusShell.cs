@@ -31,7 +31,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         [Dependency] private SharedGameTicker _gameTicker = default!;
 
-        [Dependency] private readonly IJoinQueueManager _joinQueue = default!; // Harmony Queue
+        [Dependency] private IJoinQueueManager _joinQueue = default!; // Harmony Queue
 
         private void InitializeStatusShell()
         {
