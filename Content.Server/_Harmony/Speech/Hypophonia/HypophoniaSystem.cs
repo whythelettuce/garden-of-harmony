@@ -57,7 +57,7 @@ namespace Content.Server._Harmony.Speech.Hypophonia
                 return;
 
             // If the entity is whispering, let them speak
-            if (args.Whisper)
+            if (!args.Whisper)
                 return;
 
             // Cancel the event and show the popup
