@@ -3596,3 +3596,11 @@
   id: 1410
   time: '2026-06-30T21:31:22.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1393
+- author: dragydevi
+  changes:
+  - message: Conspirators have been removed from secret's gamemode pool due to administrative
+      issues.
+    type: Remove
+  id: 1411
+  time: '2026-07-02T16:03:13.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1421
