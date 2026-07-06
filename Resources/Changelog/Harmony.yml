@@ -3604,3 +3604,10 @@
   id: 1411
   time: '2026-07-02T16:03:13.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1421
+- author: TastelessMAX
+  changes:
+  - message: Snowball from default map rotation.
+    type: Remove
+  id: 1412
+  time: '2026-07-06T06:17:38.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1425
