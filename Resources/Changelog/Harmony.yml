@@ -3625,3 +3625,11 @@
   id: 1414
   time: '2026-07-12T05:43:24.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1247
+- author: Meara1179
+  changes:
+  - message: Non-Security Mime masks can now change their appearance to other non-Security
+      Mime masks.
+    type: Tweak
+  id: 1415
+  time: '2026-07-12T06:01:59.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1248
