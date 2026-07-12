@@ -3611,3 +3611,10 @@
   id: 1412
   time: '2026-07-06T06:17:38.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1425
+- author: Llfiend
+  changes:
+  - message: Fixed clothing animations suddenly resetting.
+    type: Fix
+  id: 1413
+  time: '2026-07-12T05:32:26.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1219
