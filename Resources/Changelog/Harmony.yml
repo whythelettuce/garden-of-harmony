@@ -3618,3 +3618,10 @@
   id: 1413
   time: '2026-07-12T05:32:26.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1219
+- author: luckyshotpictures
+  changes:
+  - message: The values of Narcolepsy medications have changed to be slower in metabolism.
+    type: Tweak
+  id: 1414
+  time: '2026-07-12T05:43:24.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1247
