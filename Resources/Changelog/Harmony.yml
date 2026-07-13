@@ -3633,3 +3633,10 @@
   id: 1415
   time: '2026-07-12T06:01:59.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1248
+- author: Dinoguy12349
+  changes:
+  - message: Added the Bungo Bomber
+    type: Add
+  id: 1416
+  time: '2026-07-13T04:19:37.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1044
