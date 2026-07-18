@@ -3661,3 +3661,12 @@
   id: 1419
   time: '2026-07-15T06:20:03.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1281
+- author: Ermucat
+  changes:
+  - message: Bingle pits now always work while weightless.
+    type: Tweak
+  - message: Bingle pits can no longer be attacked from the inside.
+    type: Fix
+  id: 1420
+  time: '2026-07-18T16:19:38.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1329
