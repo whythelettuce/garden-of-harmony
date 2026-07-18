@@ -3670,3 +3670,10 @@
   id: 1420
   time: '2026-07-18T16:19:38.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1329
+- author: MoonlightHollow
+  changes:
+  - message: 'New midround antags: Electric Sheeps known as Eeeps'
+    type: Add
+  id: 1421
+  time: '2026-07-18T16:22:10.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1256
