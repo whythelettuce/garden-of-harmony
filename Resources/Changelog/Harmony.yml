@@ -3703,3 +3703,10 @@
   id: 1424
   time: '2026-07-22T05:16:12.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1133
+- author: kleinerstation13
+  changes:
+  - message: RSC now starts loaded in crates and has better firerate
+    type: Tweak
+  id: 1425
+  time: '2026-07-22T06:12:45.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1136
