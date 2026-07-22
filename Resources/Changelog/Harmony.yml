@@ -1,4 +1,4 @@
-Entries:
+﻿Entries:
 - author: liltenhead
   changes:
   - message: Added server pins to the trinket section in character loadouts.
@@ -3672,7 +3672,8 @@ Entries:
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1329
 - author: MoonlightHollow
   changes:
-  - message: 'A new midround antagonist ghost role can now spawn: electric sheeps known as Eeeps.'
+  - message: 'A new midround antagonist ghost role can now spawn: electric sheeps
+      known as Eeeps.'
     type: Add
   id: 1421
   time: '2026-07-18T16:22:10.0000000+00:00'
@@ -3684,3 +3685,14 @@ Entries:
   id: 1422
   time: '2026-07-18T16:56:18.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1251
+- author: ZigTag
+  changes:
+  - message: synth trait from Cosmatic Drift, plus extra features from Imp, and Misfit
+    type: Add
+  - message: drinks requiring synthetic blood!
+    type: Add
+  - message: species in criminal records console
+    type: Add
+  id: 1423
+  time: '2026-07-22T02:56:16.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1254
