@@ -98,12 +98,10 @@ public sealed partial class IdCardSystem : SharedIdCardSystem
         }
     }
 
-    public override void ExpireId(Entity<ExpireIdCardComponent> ent)
+    public override bool ExpireId(Entity<ExpireIdCardComponent> ent)
     {
-        if (ent.Comp.Expired)
-            return;
-
-        base.ExpireId(ent);
+        if (!base.ExpireId(ent))
+            return false;
 
         if (ent.Comp.ExpireMessage != null)
         {
@@ -114,6 +112,7 @@ public sealed partial class IdCardSystem : SharedIdCardSystem
                 ChatTransmitRange.Normal,
                 true);
         }
+
         // Harmony Change Start - ID card radio system
         if (ent.Comp.ExpireMessageRadio != null)
         {
@@ -121,5 +120,7 @@ public sealed partial class IdCardSystem : SharedIdCardSystem
             _radio.SendRadioMessage(ent.Owner, message, ent.Comp.RadioChannel, ent.Owner);
         }
         // Harmony change end
+
+        return true;
     }
 }
