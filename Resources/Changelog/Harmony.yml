@@ -3724,3 +3724,10 @@
   id: 1427
   time: '2026-07-22T07:13:43.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1308
+- author: kleinerstation13
+  changes:
+  - message: Added 3 new nuke songs, created by mrjajkes
+    type: Add
+  id: 1428
+  time: '2026-07-26T02:49:20.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1280
