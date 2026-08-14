@@ -250,9 +250,9 @@
   id: MakeshiftShield
   description: A rundown looking shield, not good for much.
   components:
-  # Begin of Harmony Change: Shield Rework -- Suit Storage Slot
-  - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi
+    # Begin of Harmony Change: Shield Rework -- Suit Storage Slot
+    - type: Sprite
+      sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi
       state: icon
       #state: makeshift-icon
     - type: Item
@@ -264,7 +264,7 @@
       quickEquip: false
       slots:
       - suitStorage
-  # End of Harmony Change
+    # End of Harmony Change
     - type: Construction
       graph: MakeshiftShield
       node: makeshiftShield
