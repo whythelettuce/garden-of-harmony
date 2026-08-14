@@ -3760,3 +3760,10 @@
   id: 1432
   time: '2026-08-07T03:36:29.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1389
+- author: dragydevi
+  changes:
+  - message: Round end report of crew medals!
+    type: Add
+  id: 1433
+  time: '2026-08-14T03:06:19.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1390
