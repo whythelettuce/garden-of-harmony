@@ -13,7 +13,7 @@ namespace Content.Server._Harmony.Speech.Hypophonia
 {
     public sealed partial class HypophoniaSystem : EntitySystem
     {
-        [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+        [Dependency] private IPrototypeManager _prototypeManager = default!;
 
         [Dependency] private PopupSystem _popupSystem = default!;
         public override void Initialize()
