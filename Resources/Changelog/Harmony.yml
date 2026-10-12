@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: TheCrimsonJupiter
-  changes:
-  - message: Reduced the likelihood of mid-round round-ending antagonists to appear.
-    type: Tweak
-  id: 33
-  time: '2024-09-09T21:35:20.0000000+00:00'
-  url: https://github.com/ss14-harmony/ss14-harmony/pull/33
 - author: Tsawodi
   changes:
   - message: Added the instructor mantle for teach-and-learn events. Can only spawned
@@ -3795,3 +3788,10 @@
   id: 1447
   time: '2026-10-12T02:51:01.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1455
+- author: TheFlyingSentry
+  changes:
+  - message: Emergency shuttle call for Zombies now count the dead zombies
+    type: Tweak
+  id: 1448
+  time: '2026-10-12T07:42:08.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1457
