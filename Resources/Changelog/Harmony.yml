@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Tsawodi
-  changes:
-  - message: Added the instructor mantle for teach-and-learn events. Can only spawned
-      in through the entity menu.
-    type: Add
-  id: 43
-  time: '2024-09-12T19:17:52.0000000+00:00'
-  url: https://github.com/ss14-harmony/ss14-harmony/pull/43
 - author: spanky-spanky
   changes:
   - message: Added 14 ERT shuttles, credit to TsjipTsjip, luckyshotpictures, & IProduceWidgets.
@@ -3795,3 +3787,11 @@
   id: 1448
   time: '2026-10-12T07:42:08.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1457
+- author: daseiinn
+  changes:
+  - message: Adds the Waffle Co. Astro Ace, a lethal version of the foam toy gun for
+      7 tc!
+    type: Add
+  id: 1449
+  time: '2026-10-16T06:31:14.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1456
