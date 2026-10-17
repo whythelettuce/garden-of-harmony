@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: spanky-spanky
-  changes:
-  - message: Added 14 ERT shuttles, credit to TsjipTsjip, luckyshotpictures, & IProduceWidgets.
-    type: Add
-  id: 47
-  time: '2024-09-12T18:49:42.0000000+00:00'
-  url: https://github.com/ss14-harmony/ss14-harmony/pull/47
 - author: FluffMe
   changes:
   - message: 'Added 5 button frames to "Construction" menu: grey, exit, caution, danger,
@@ -3795,3 +3788,11 @@
   id: 1449
   time: '2026-10-16T06:31:14.0000000+00:00'
   url: https://github.com/ss14-harmony/ss14-harmony/pull/1456
+- author: daseiinn
+  changes:
+  - message: Added the Waffle Co. Stinger Grenade, a stealthy stinger grenade in the
+      uplink for traitors!
+    type: Add
+  id: 1450
+  time: '2026-10-17T06:16:30.0000000+00:00'
+  url: https://github.com/ss14-harmony/ss14-harmony/pull/1458
